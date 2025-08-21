@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.Ayush</groupId>
-	<artifactId>RestApiWithDatabase</artifactId>
+	<artifactId>memovault</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RestApi_withDatabase</name>
 	<description>RestApi_withDatabase</description>
