@@ -11,10 +11,10 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableTransactionManagement
-public class RestApiWithDatabaseApplication {
+public class MemoVault {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestApiWithDatabaseApplication.class, args);
+		SpringApplication.run(MemoVault.class, args);
 	}
 	@Bean
     public PlatformTransactionManager add(MongoDatabaseFactory dbFactory){
